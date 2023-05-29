@@ -1,5 +1,6 @@
 $(function(){
-  $('.box1').show();
-  $('.box1').css({'background-color':'#0000FF'})
+  $('button').mouseover('click',function(){
+  $('ul').children().css('c;olor','red');
+});
    
 });
